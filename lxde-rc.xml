@@ -287,12 +287,12 @@
     <keybind key="W-i">
       <keybind key="i">
         <action name="Execute">
-          <execute>iceweasel</execute>
+          <execute>firefox</execute>
         </action>
       </keybind>
       <keybind key="p">
         <action name="Execute">
-          <execute>iceweasel -private-window</execute>
+          <execute>firefox --private-window</execute>
         </action>
       </keybind>
     </keybind>
@@ -790,7 +790,7 @@
     <application name="lxterminal">
       <focus>yes</focus>
     </application>
-    <application name="iceweasel">
+    <application name="firefox">
       <focus>yes</focus>
     </application>
     <!--
